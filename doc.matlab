@@ -22,3 +22,12 @@ do
   i++
   fib (i) = fib (i-1) + fib(i-2);
 until (i==10)
+
+
+
+## STRUCTURES
+
+function y = f (x)
+  y.re = real (x);
+  y.im = imag (x);
+endfunction
