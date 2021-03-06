@@ -26,11 +26,20 @@ until (i==10)
 
 ## PLOTS
 
+## 2D plot
 x = -10:0.1:10;
 plot (x, sin (x));
 xlabel ("x");
 ylabel ("sin (x)");
 title ("Simple 2-D Plot");
+
+
+##histogram
+randn ("state", 1);
+hist (randn (10000, 1), 30);
+xlabel ("Value");
+ylabel ("Count");
+title ("Histogram of 10,000 normally distributed random numbers");
 
 
 
