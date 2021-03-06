@@ -53,6 +53,10 @@ xlabel ("x");
 ylabel ("sin (x)");
 title ("Errorbar plot of sin (x)");
 
+#polarplot
+polar (0:0.1:10*pi, 0:0.1:10*pi);
+title ("Example polar plot from 0 to 10*pi");
+
 
 ## STRUCTURES
 
