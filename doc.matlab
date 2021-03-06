@@ -17,3 +17,8 @@ while (i <= 10)
   i++;
 endwhile
 
+## DO UNTIL
+do
+  i++
+  fib (i) = fib (i-1) + fib(i-2);
+until (i==10)
