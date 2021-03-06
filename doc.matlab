@@ -1,3 +1,15 @@
+
+
+## LOOPS
+
+## IF
+if (rem(x, 2) ==0)
+  printf ("x is even\n");
+else
+  printf("x is odd\n");
+endif
+
+## WHILE
 fib = ones (1, 10);
 i = 3;
 while (i <= 10)
@@ -5,9 +17,3 @@ while (i <= 10)
   i++;
 endwhile
 
-
-if (rem(x, 2) ==0)
-  printf ("x is even\n");
-else
-  printf("x is odd\n");
-endif
