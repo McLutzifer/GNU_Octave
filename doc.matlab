@@ -41,6 +41,17 @@ xlabel ("Value");
 ylabel ("Count");
 title ("Histogram of 10,000 normally distributed random numbers");
 
+##eroorobar
+rand ("state", 2);
+x = 0:0.1:10;
+y = sin (x);
+lerr = 0.1 .* rand (size (x));
+uerr = 0.1 .* rand (size (x));
+errorbar (x, y, lerr, uerr);
+axis ([0, 10, -1.1, 1.1]);
+xlabel ("x");
+ylabel ("sin (x)");
+title ("Errorbar plot of sin (x)");
 
 
 ## STRUCTURES
