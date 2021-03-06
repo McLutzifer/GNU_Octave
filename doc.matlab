@@ -31,3 +31,8 @@ function y = f (x)
   y.re = real (x);
   y.im = imag (x);
 endfunction
+
+x.a = 1;
+x.b = [1, 2; 3, 4];
+x.c = "string";
+
